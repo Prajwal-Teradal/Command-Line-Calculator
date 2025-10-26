@@ -15,8 +15,11 @@ Multiplication (*)
 Division (/)
 
 ✅ Handles parentheses for grouping expressions.
+
 ✅ Supports multi-digit and decimal numbers.
+
 ✅ Proper operator precedence handling.
+
 ✅ Detects invalid expressions and provides meaningful error messages.
 
 Optional Enhancements (Future Scope)
@@ -68,23 +71,38 @@ Invalid expression: mismatched parentheses
 
 How to Run
 
-Clone the repository: git clone <repository_url>
-Navigate to the project folder: cd CommandLineCalculator
-Compile the Java code: javac CommandLineCalculator.java
-Run the program: java CommandLineCalculator
+Clone the repository: 
+
+git clone <repository_url>
+
+Navigate to the project folder: 
+
+cd CommandLineCalculator
+
+Compile the Java code:
+
+javac CommandLineCalculator.java
+
+Run the program: 
+
+java CommandLineCalculator
+
 Enter any mathematical expression to get the result.
 
 
 Code Highlights
 
 Uses Stacks for numbers and operators.
+
 Checks for invalid characters, mismatched parentheses, and missing operands.
+
 Implements proper operator precedence.
 
 
 Technologies Used
 
 Java
+
 Command-Line Interface
 
 
